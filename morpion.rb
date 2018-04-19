@@ -6,12 +6,12 @@ class Game (jeu)
         @name1=player1
         @name2=player2
         # chaque joueur entre son prénom
-        puts "prénom du joueur 1"
-        gets.chomp
-        {name1}
-        puts "prénom du joueur 2"
-        gets.chomp
-        {name2}
+        print "entrer nom du joueur 1"
+        player1c = gets.chomp
+        
+        puts "entrer nom du joueur 2"
+        player2 = gets.chomp
+        puts "Bonjour #{player1} et #{player2}
         #attribuer un type de jeton à chaque joueur
         @name1=x
         @nama2=o
