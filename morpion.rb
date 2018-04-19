@@ -13,8 +13,8 @@ class Game (jeu)
         player2 = gets.chomp
         puts "Bonjour #{player1} et #{player2}
         #attribuer un type de jeton à chaque joueur
-        @name1=x
-        @nama2=o
+        @player1=x
+        @player2=o
         # l'algorithme décide de façon aléatoire de celui qui commence
         r = Random.new
         r.rand(1...2)
